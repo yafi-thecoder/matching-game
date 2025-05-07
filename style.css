@@ -1,13 +1,13 @@
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #E5D0AC;
+  background-color: #948979;
   text-align: center;
   padding: 20px;
   position: relative;
 }
 
 h1 {
-  color: #1D1616;
+  color: #DFD0B8;
   margin-bottom: 20px;
 }
 
@@ -57,7 +57,7 @@ h1 {
 
 .card .back {
   transform: rotateY(180deg);
-  background-color: #1D1616;
+  background-color: #DFD0B8;
   display: flex;
   align-items: center;
   justify-content: center;
