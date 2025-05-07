@@ -105,15 +105,15 @@ h1 {
 /* Responsive layout for mobile screens */
 @media (max-width: 500px) {
   .game-container {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
     gap: 8px;
-    max-width: 100%;
+    width: 100%; /* Allow full width to accommodate 4x4 grid */
     padding: 0 10px;
     justify-content: center;
   }
 
   .card {
-    width: 70px;
+    width: 70px; /* Slightly smaller card size */
     height: 70px;
   }
 
