@@ -24,7 +24,7 @@ h1 {
 .card {
   width: 100px;
   height: 100px;
-  background-color: #6D2323;
+  background-color: #222831;
   border-radius: 5px;
   cursor: pointer;
   position: relative;
@@ -47,7 +47,7 @@ h1 {
 }
 
 .card .front {
-  background-color: #6D2323;
+  background-color: #222831;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,7 +95,7 @@ h1 {
   position: relative;
   display: inline-block;
   margin: 20px auto 20px;
-  background-color: #6D2323;
+  background-color: #222831;
   color: white;
   padding: 10px 20px;
   border-radius: 20px;
