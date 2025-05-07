@@ -18,6 +18,7 @@ h1 {
   margin: 0 auto;
   max-width: 450px;
   perspective: 1000px;
+  padding-top:20px;
 }
 
 .card {
@@ -93,7 +94,7 @@ h1 {
 #timerBox {
   position: relative;
   display: inline-block;
-  margin-top: 20px auto 10px;
+  margin: 20px auto 10px;
   background-color: #6D2323;
   color: white;
   padding: 10px 20px;
@@ -111,6 +112,7 @@ h1 {
     width: 100%;
     padding: 0 10px;
     justify-content: center;
+    padding-top: 15px;
   }
 
   .card {
