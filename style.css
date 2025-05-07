@@ -1,6 +1,6 @@
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #E5DOAC;
+  background-color: #E5D0AC;
   text-align: center;
   padding: 20px;
   position: relative;
@@ -8,6 +8,7 @@ body {
 
 h1 {
   color: #1D1616;
+  margin-bottom: 20px;
 }
 
 .game-container {
@@ -86,13 +87,13 @@ h1 {
 }
 
 #resetBtn:hover {
-  background-color: #1D1616;
+  background-color: #3a2b2b;
 }
 
 #timerBox {
-  position: absolute;
-  top: 20px;
-  right: 20px;
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
   background-color: #6D2323;
   color: white;
   padding: 10px 20px;
@@ -105,15 +106,15 @@ h1 {
 /* Responsive layout for mobile screens */
 @media (max-width: 500px) {
   .game-container {
-    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-template-columns: repeat(4, 1fr);
     gap: 8px;
-    width: 100%; /* Allow full width to accommodate 4x4 grid */
+    width: 100%;
     padding: 0 10px;
     justify-content: center;
   }
 
   .card {
-    width: 70px; /* Slightly smaller card size */
+    width: 70px;
     height: 70px;
   }
 
@@ -138,7 +139,5 @@ h1 {
   #timerBox {
     font-size: 1em;
     padding: 8px 16px;
-    top: 10px;
-    right: 10px;
   }
 }
