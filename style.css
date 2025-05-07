@@ -57,7 +57,7 @@ h1 {
 
 .card .back {
   transform: rotateY(180deg);
-  background-color: #DFD0B8;
+  background-color: #000000;
   display: flex;
   align-items: center;
   justify-content: center;
