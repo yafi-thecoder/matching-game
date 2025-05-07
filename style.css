@@ -10,24 +10,11 @@ h1 {
   color: #1D1616;
 }
 
-#timerBox {
-  background-color: #6D2323;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 20px;
-  font-size: 1.2em;
-  font-weight: bold;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  display: inline-block;
-  margin: 10px auto;
-  position: relative;
-}
-
 .game-container {
   display: grid;
   grid-template-columns: repeat(4, 100px);
   gap: 10px;
-  margin: 20px auto;
+  margin: 0 auto;
   max-width: 450px;
   perspective: 1000px;
 }
@@ -99,7 +86,20 @@ h1 {
 }
 
 #resetBtn:hover {
-  background-color: #000;
+  background-color: #1D1616;
+}
+
+#timerBox {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #6D2323;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Responsive layout for mobile screens */
@@ -138,5 +138,7 @@ h1 {
   #timerBox {
     font-size: 1em;
     padding: 8px 16px;
+    top: 10px;
+    right: 10px;
   }
 }
